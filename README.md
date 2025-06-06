@@ -14,7 +14,7 @@ This project is a very small Vite + React setup intended to display data from th
    npm run dev
    ```
 
-The frontend expects an endpoint at `/api/businesses` that returns JSON in the following format:
+During development a small mock API is provided at `/api/businesses` which returns sample data:
 
 ```json
 {
