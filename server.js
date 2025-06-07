@@ -1,6 +1,6 @@
-const express = require('express');
-const session = require('express-session');
-const { google } = require('googleapis');
+import express from 'express';
+import session from 'express-session';
+import { google } from 'googleapis';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
